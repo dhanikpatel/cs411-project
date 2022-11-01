@@ -1,5 +1,5 @@
 ## Contributors:
-* Jonas Readler
+* Jonas Raedler
 * Dhanik Patel
 * Lingxi Kuang
 * Simon Cen 
