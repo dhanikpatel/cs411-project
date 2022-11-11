@@ -38,13 +38,6 @@ token = ''
 def hello():
 		return 'Hello World!'
 
-# access_token = ''
-HEADERS = {
-	'Content-Type': 'application/json',
-	'Accept': 'application/json',
-	'Authorization': 'Bearer BQAvD324yAbPwrXfoDkC4aTs-k02GJmH2ITyPVf85VknhYfhyLl0c8V6SJ9r061cH3Y8djrSzPxPIPMfjaAOUC8R2-7Rf8nDwU_lm_lDJTDZGywa1pq-HZhW_T0ELDVyUlLIWEq3bx3AkBUMD_fGtyGrUp5UyOQMoallekIJ1Yzc9S3DpLHPGG-00yiO7KM5BMKUx-r-FC_AkkDoAFs'
-}
-
 # base URL of all Spotify API endpoints
 BASE_URL = 'https://api.spotify.com/v1/'
 
