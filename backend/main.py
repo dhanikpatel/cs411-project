@@ -3,9 +3,21 @@ import base64
 import json
 import string
 import flask, flask_login
+from flask_cors import CORS
 from flask import Flask, Response, request, redirect, jsonify, send_file
 
 import os, requests, random
+
+# start basic flask app
+app = Flask(__name__)
+
+# CORS SETTINGS
+CORS(
+    app,
+    origins=["http://127.0.0.1:3000", "http://localhost:3000", "http://localhost:5173", "http://127.0.0.1:5173"],
+    supports_credentials=True,
+)
+
 
 # import spotify_token
 from spotify_token import get_access_token
@@ -14,8 +26,7 @@ from spotify_token import get_access_token
 from dotenv import load_dotenv, find_dotenv
 
 
-# start basic flask app
-app = Flask(__name__)
+
 
 # load environment variables
 load_dotenv(find_dotenv())
