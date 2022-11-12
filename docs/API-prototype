@@ -1,0 +1,2 @@
+We chose Flask over Django because Flask provides support for API, while Django doesn't have any support for API. 
+Flask is a Python web framework that we can use for rapid development -- it is easier to use and its URL dispatcher is based on RESTful requests.
